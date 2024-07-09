@@ -11,29 +11,29 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
-.primary-font-style{
+.primary-font-style {
     color: #0d1321;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
 }
 
-.secondary-font-style{
+.secondary-font-style {
     color: rgb(13, 19, 33);
-font-size: 32px;
-font-weight: 800;
+    font-size: 32px;
+    font-weight: 800;
 }
 
-.primary-btn{
+.primary-btn {
     width: 150px;
-height: 48px;
+    height: 48px;
     padding: 12px 20px 12px 20px;
     border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-background: none;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
 }
 
 /* navbar part styles */
@@ -46,8 +46,8 @@ background: none;
 
 #nav-title {
     color: rgb(13, 19, 33);
-font-size: 28px;
-font-weight: 800;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 #resume-btn {
@@ -110,32 +110,36 @@ font-weight: 800;
 }
 
 /* web development info section style  */
-.web-info-container{
+.web-info-container {
     width: 1140px;
-height: 1395px;
-padding: 80px 97px 80px 97px;
-border-radius: 16px;
-background-color: rgb(251, 251, 252);
-margin: 74px auto ;       
-display: flex;
-flex-direction: column;
+    height: 1395px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background-color: rgb(251, 251, 252);
+    margin: 74px auto;
+    display: flex;
+    flex-direction: column;
 
 }
-.web-info-title{
+
+.web-info-title {
     width: 852px;
-height: 115px;
-margin: 0 auto;
-text-align: center;
-}
-#web-info-header{
-    margin-bottom: 24px;
-    
+    height: 115px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.first-web-info, .last-web-info, .second-web-info{
+#web-info-header {
+    margin-bottom: 24px;
+
+}
+
+.first-web-info,
+.last-web-info,
+.second-web-info {
     margin-top: 48px;
     border-radius: 16px;
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     width: 946px;
     height: 336px;
     display: flex;
@@ -143,10 +147,13 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     align-items: center;
     padding: 48px;
 }
-.first-web-info-title, .last-web-info-title, .second-web-info-title{
+
+.first-web-info-title,
+.last-web-info-title,
+.second-web-info-title {
     width: 477px;
     height: 80%;
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
 
@@ -154,33 +161,33 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 
 
 /* inspiration styles here  */
-.inspiration-info-container{
+.inspiration-info-container {
     width: 1140px;
-height: 777px;
-margin: 0 auto;
-margin-top: 88px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.inspiration-text-content{
+.inspiration-text-content {
     width: 852px;
-height: 115px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-text-align: center;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
-.inspiration-video-container{
+.inspiration-video-container {
     margin-top: 48px;
     width: 1140px;
-height: 614px;
-padding: 32px 32px 0;
-box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
+    height: 614px;
+    padding: 32px 32px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
