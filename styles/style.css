@@ -203,7 +203,6 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    border: 2px solid red;
     margin-top: 149px;
 
 }
@@ -217,7 +216,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
-    border: 2px solid red;
 
 }
 
@@ -227,7 +225,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
 }
 
 .first-current-target-info,
@@ -235,7 +232,6 @@ body {
 .last-current-target-info {
     width: 364px;
     height: 299px;
-    border: 2px solid yellow;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -249,7 +245,6 @@ body {
 .last-current-target-info img {
     width: 56px;
     height: 56px;
-    border: 2px solid yellow;
 
 }
 
@@ -274,4 +269,93 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* support section styles here  */
+.support-info-container {
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    padding: 64px 48px 64px 48px;
+    background-image: url('../assets/handshake.jpg');
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    margin-top: 111px;
+    margin-bottom: 79px;
+}
+
+.support-info-content {
+
+    width: 1044px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.support-info-content h1 {
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-info-content p {
+    color: rgb(255, 255, 255);
+
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+.support-input-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#support-btn {
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#support-btn-content {
+    width: 80px;
+    height: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.support-info-content input {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+}
+
+
+
+.support-info-content ::placeholder {
+
+    width: 313px;
+    height: 19px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+
 }
