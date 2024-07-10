@@ -37,6 +37,12 @@ body {
     cursor: pointer;
 }
 
+header,
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* navbar part styles */
 .nav-bar-container {
     display: flex;
@@ -124,7 +130,6 @@ body {
     margin: 74px auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .web-info-title {
